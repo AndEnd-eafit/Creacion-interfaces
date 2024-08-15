@@ -36,5 +36,6 @@ with col2:
 with st.sidebar:
   st.subheader("Configura la modalidad")
   mod_radio = st.radio(
-  "Escoge la modalidad a usar"
+  "Escoge la modalidad a usar",
+    ("Nice", "Meh", "¿Que chucha es?")
   )
