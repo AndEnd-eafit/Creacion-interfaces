@@ -33,3 +33,8 @@ with col2:
   if modo == '¿Que chucha es?':
     st.write('Es un fantasma que le gusta tomar una froma chibi, pero hubieses preguntado de mejor forma T-T')
   
+with st.sidebar:
+  st.subheader("Configura la modalidad")
+  mod_radio = st.radio(
+  "Escoge la modalidad a usar"
+  )
