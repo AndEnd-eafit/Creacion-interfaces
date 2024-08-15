@@ -25,11 +25,11 @@ with col1:
 
 with col2:
   st.subheader("Esta es la segunda columna")
-  modo = st.radio("Qué modalidad es la principal de tu interfaz", ('Visual', 'Auditiva', 'Táctil'))
-  if modo == 'Visual':
-    st.write('La vista es fundamental para tu interfaz')
-  if modo == 'Auditiva':
-    st.write('La audición es fundamental para tu interfaz')
-  if modo == 'Táctil':
-    st.write('El tacto es fundamental para tu interfaz')
+  modo = st.radio("¿Qué opinas de Yoru?", ('Nice', 'Meh', '¿Que chucha es?'))
+  if modo == 'Nice':
+    st.write('¡Gracias! Me esforce para que se viera bien')
+  if modo == 'Meh':
+    st.write('... I didn't make him... ¡FOR YOU!')
+  if modo == '¿Que chucha es?':
+    st.write('Es un fantasma que le gusta tomar una froma chibi, pero hubieses preguntado de mejor forma T-T')
   
