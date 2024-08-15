@@ -29,7 +29,7 @@ with col2:
   if modo == 'Nice':
     st.write('¡Gracias! Me esforce para que se viera bien')
   if modo == 'Meh':
-    st.write('... I didn't make him... FOR YOU!')
+    st.write('... I didn't make him... FOR YOU')
   if modo == '¿Que chucha es?':
     st.write('Es un fantasma que le gusta tomar una froma chibi, pero hubieses preguntado de mejor forma T-T')
   
